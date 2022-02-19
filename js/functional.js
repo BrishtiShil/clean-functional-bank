@@ -5,12 +5,7 @@ function getInputValue(fieldId) {
     inputField.value = "";
     return value;
 }
-function getInnerTextValue(fieldId) {
-    const fieldTag = document.getElementById(fieldId);
-    const fieldValueInText = fieldTag.innerText;
-    const value = parseFloat(fieldValueInText);
-    return value;
-}
+
 function updateTotal(fieldId, amount) {
     // const totalTag = document.getElementById(fieldId);
     // const previousTotalText = totalTag.innerText;
